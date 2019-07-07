@@ -14,6 +14,7 @@
 		FC2F077D21820BC500C346BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2F077B21820BC500C346BC /* LaunchScreen.storyboard */; };
 		FC2F078821820BC500C346BC /* ARDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2F078721820BC500C346BC /* ARDiceTests.swift */; };
 		FC2F079321820BC500C346BC /* ARDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2F079221820BC500C346BC /* ARDiceUITests.swift */; };
+		FC2F07A121820BEF00C346BC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2F07A021820BEF00C346BC /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FC2F078E21820BC500C346BC /* ARDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2F079221820BC500C346BC /* ARDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDiceUITests.swift; sourceTree = "<group>"; };
 		FC2F079421820BC500C346BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2F07A021820BEF00C346BC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				FC2F077921820BC500C346BC /* Assets.xcassets */,
 				FC2F077B21820BC500C346BC /* LaunchScreen.storyboard */,
 				FC2F077E21820BC500C346BC /* Info.plist */,
+				FC2F07A021820BEF00C346BC /* art.scnassets */,
 			);
 			path = ARDice;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC2F077D21820BC500C346BC /* LaunchScreen.storyboard in Resources */,
+				FC2F07A121820BEF00C346BC /* art.scnassets in Resources */,
 				FC2F077A21820BC500C346BC /* Assets.xcassets in Resources */,
 				FC2F077821820BC300C346BC /* Main.storyboard in Resources */,
 			);
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WBZ6T2AKNS;
 				INFOPLIST_FILE = ARDice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WBZ6T2AKNS;
 				INFOPLIST_FILE = ARDice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
